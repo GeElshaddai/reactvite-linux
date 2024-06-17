@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Moon, Sun } from "react-bootstrap-icons";
+import { Sun, SunFill } from "react-bootstrap-icons";
 
 import { Button } from "react-bootstrap";
 
@@ -13,7 +13,7 @@ const ThemeToggler = () => {
   return (
     <div className={`ThemeToggler ${darkMode ? "theme-dark" : "theme-light"}`}>
       <Button variant="dark" onClick={toggleTheme}>
-        {darkMode ? <Moon /> : <Sun />}
+        {darkMode ? <Sun /> : <SunFill />}
       </Button>
     </div>
   );
