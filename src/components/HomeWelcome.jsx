@@ -1,7 +1,7 @@
 const HomeWelcome = () => {
   return (
     <>
-      <div className="home-welcome align-items-center">
+      <div className="welcome-component align-items-center">
         <div className="container px-4">
           <div className="row flex-lg-row-reverse align-items-center justify-content-center g-5 pb-5">
             <div className="col-10 col-sm-8 col-lg-6">
