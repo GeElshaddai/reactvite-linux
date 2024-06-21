@@ -1,5 +1,13 @@
+import ProductHead from "../components/ProductHead";
+import ProductBodylang from "../components/ProductBodyLang";
+
 const ProductsPage = () => {
-  return <h2>Product page test</h2>;
+  return (
+    <>
+      <ProductHead />
+      <ProductBodylang />
+    </>
+  );
 };
 
 export default ProductsPage;
